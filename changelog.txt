@@ -1,3 +1,5 @@
+-
+
 Windows Azure SDK For PHP 0.5.7, 2017-11-27
 
 - SAS authorization
