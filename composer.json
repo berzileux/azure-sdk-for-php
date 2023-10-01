@@ -9,13 +9,19 @@
             "email": "azurephpsdk@microsoft.com"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/Clearfacts/zend-mime.git"
+      }
+    ],
     "require": {
         "php": ">=7.2",
         "pear/net_url2": "^2.2",
         "pear/mail_mime": "^1.10",
         "firebase/php-jwt": "^4.0 || ^5.0 || ^6.0",
         "guzzlehttp/guzzle": "~6.0|^7.0",
-        "zendframework/zend-mime": "^2.6",
+        "zendframework/zend-mime": "dev-master",
         "zendframework/zend-mail": "^2.7"
     },
     "require-dev": {
